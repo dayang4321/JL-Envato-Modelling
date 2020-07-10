@@ -4,7 +4,7 @@ header{
 
 .home-container{
     color: #fefefe!important;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(/assets/img/home-hero.png)!important ;
+    background-image: linear-gradient(rgba(7, 3, 26, 0.75), rgba(7, 3, 26, 0.75)),url(/assets/img/home-hero.png)!important ;
     background-repeat: no-repeat!important;
     position: relative;
     height: 100vh;
@@ -29,6 +29,11 @@ header{
     font-size: 12px;
     line-height: 18px;
 }
+.navbar .nav-item .nav-link:active,
+.navbar .nav-item .nav-link.active{
+background-color: none!important;
+border-bottom: 1px solid #fb3;
+}
 
 .contact-button{
     
@@ -52,4 +57,26 @@ line-height: 96px;
 font-weight: bold;
 font-size: 18px;
 line-height: 27px;
+}
+
+
+@media (max-width:768px){
+    .navbar {
+        background-color: #07031A; }
+
+    .navbar .nav-item .nav-link:active,
+    .navbar .nav-item .nav-link.active{
+        background-color: none!important;
+        border-bottom: none;
+        border-left: 1px solid #fb3;
+}
+}
+
+.top-nav-collapse {
+    background-color: #07031A; }
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #07031A!important;
+    }
 }

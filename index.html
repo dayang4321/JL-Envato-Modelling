@@ -22,46 +22,48 @@
   <!-- Header -->
 <header>
       <!-- NavBar -->
-      <nav class="navbar shadow-none navbar-expand-md navbar-dark px-5 fixed-top scrolling-navbar" id="home-navbar">
-     
-      <a class="navbar-brand px-5" id="brand" href="#">TANYA <br> TUCKER</a> 
-        
-        <div class="collapse navbar-collapse ml-auto" >
-          <ul class="navbar-nav nav ml-auto ">
-            <li class="nav-item py-4 mx-5">
-                <a class="nav-link" href="#about-me">HOME</a>
+      <nav class="navbar shadow-none navbar-expand-md navbar-dark px-3 px-lg-4 px-xl-5 fixed-top scrolling-navbar" id="home-navbar">
+       <!-- Logo -->
+      <a class="navbar-brand px-3 px-xl-5" id="brand" href="#">TANYA <br> TUCKER</a> 
+      <!-- Toggler Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="color: white;"></span>
+      </button>
+      <!-- Collapsible Content -->
+        <div class="collapse navbar-collapse ml-auto"  id="navbarText">
+          <ul class="navbar-nav nav ml-auto"  >
+            <li class="nav-item py-0 py-xl-4 mx-3 mx-xl-5 ">
+                <a class="nav-link active" href="#">HOME</a>
               </li>
-            <li class="nav-item py-4 mx-5">
-              <a class="nav-link" href="#about-me">ABOUT ME</a>
+            <li class="nav-item py-0 py-xl-4 mx-3 mx-xl-5">
+              <a class="nav-link" href="#">ABOUT ME</a>
             </li>
-            <li class="nav-item py-4 mx-5">
-                <a class="nav-link " href="#portfolio">PORTFOLIO</a>
+            <li class="nav-item py-0 py-xl-4 mx-3 mx-xl-5">
+                <a class="nav-link " href="#">PORTFOLIO</a>
               </li>
-            <li class="nav-item py-4 mx-5">
-              <a class="nav-link" href="#services">PRICING</a>
+            <li class="nav-item py-0 py-xl-4 mx-3 mx-xl-5">
+              <a class="nav-link" href="#">PRICING</a>
             </li>
            
           </ul>
-          <button class="btn contact-button py-3 px-4 mx-5  bg-warning my-2" href="#">LET'S TALK</button>
+          <button class="btn contact-button py-2 py-xl-3 px-3 px-xl-4 mx-3 mx-xl-5 bg-warning my-2" href="#">LET'S TALK</button>
         
       
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" style="color: white;"></span>
-          </button>
+      
       </nav>
 
       <!-- /NavBar -->
 
       <!-- Hero -->
-      <section class="home-container h-100 d-flex pt-3 px-0 text-center " id="home">
+      <section class="home-container h-100 d-flex pt-5 px-0 text-center " id="home">
         <div class="d-flex m-auto text-white flex-row">
           <span class=""></span>
           <div class="inner cover  pt-5 mx-auto main-bodyText text-center">
             <h1 class="font-weight-bold hero-text">TANYA TUCKER</h1>
             
             <p class="lead ">
-              <a href="#" class="btn hero-button btn-outline-warning" >PORTFOLIO</a>
+              <a href="#portfolio" class="btn hero-button btn-outline-warning" >PORTFOLIO</a>
             </p>
           </div>
          
@@ -74,22 +76,22 @@
 <!-- /Header -->
 
 
-<main class="px-5">
+<main class="px-xl-5 px-lg-4 px-md-3 px-sm-2">
 <!-- Portfolio -->
-  <section class="mt-5 pt-4 px-5" id="portfolio">
-    <h1 class="section-title text-center">Portfolio</h1>
+  <section class="mt-4 px-xl-5 px-lg-4 px-md-3 px-sm-2"  id="portfolio">
+    <h1 class="section-title pt-5 text-center">Portfolio</h1>
     <div class="row w-100 portfolio-row pt-3 m-0"> 
       <div class="col-md-4 portfolio-column">
         <img class="img-fluid" src="assets/img/portfolio-photo1.png" alt="portfolio photo">
-        <p class="portfolio-label py-3 text-center">#ORRUFO2019</p>
+        <p class="portfolio-label py-3 text-center">#ANN&JOSH2019</p>
       </div>
       <div class="col-md-4 portfolio-column">
         <img class="img-fluid" src="assets/img/portfolio-photo2.png" alt="portfolio photo">
-        <p class="portfolio-label py-3 text-center">#ORRUFO2019</p>
+        <p class="portfolio-label py-3 text-center">#SIAN&FRED2020</p>
       </div>
       <div class="col-md-4 portfolio-column">
         <img class="img-fluid" src="assets/img/portfolio-photo3.png" alt="portfolio photo">
-        <p class="portfolio-label py-3 text-center">#ORRUFO2019</p>
+        <p class="portfolio-label py-3 text-center">#PEE&BRAD2018</p>
       </div>
      </div>
      
@@ -99,8 +101,8 @@
 <!-- /Portfolio -->
 
 <!-- About Me -->
-  <section class="py-5 px-5" id="about-me">
-    <div class="row w-100 about-me-row py-3 m-0">
+  <section class="px-xl-5 px-lg-4 px-md-3 px-sm-2" id="about-me">
+    <div class="row py-5 w-100 about-me-row py-3 m-0">
       <div class="col-md-6">
         <h1 class="section-title mb-2">About Me</h1>
         <article class="about-me-article">
@@ -115,7 +117,7 @@
       <div class="col-md-6">
         <div class="view">
           <img class="img-fluid w-100 " src="assets/img/about-me-photo.png" alt="tanya tucker photo">
-          <div class="mask h-100 position-absolute waves-effect waves-light rgba-black-strong"></div>
+          <div class="mask h-100 position-absolute waves-effect waves-light rgba-shade-strong"></div>
         </div>
     </div>
   </section>
@@ -145,7 +147,7 @@
       <div class="md-form form-md pb-5">
         <input type="email" id="email-input" class="form-control form-control-lg text-white">
         <label for="email-input">Your E-mail</label>
-        <a class="btn white text-dark CTA-button py-3 px-4 mr-auto ml-0 my-2 text-capitalize" href="" btnType="submit" >Subscibe</a>
+        <a class="btn white text-dark CTA-button py-3 px-4 mr-auto ml-0 my-2 text-capitalize" href="" btnType="submit" >Subscribe</a>
       </div>
     </div>
    
@@ -158,9 +160,11 @@
         <a class="nav-link" href="#"><i class="fa fa-linkedin text-white" aria-hidden="true"></i></a>
         <a class="nav-link" href="#"><i class="fa fa-youtube text-white" aria-hidden="true"></i></a>
       </nav>
-      <p class="px-3">
-        <a href="tel:+3155555555">+31 555 55555</a>
-        <a href="tel:+3155555555">+31 555 55555</a>
+      <p class="px-3 text-right">
+        <a class="mb-3" href="tel:+3155555555">+31 555 55555</a> 
+      </p>
+      <p class="px-3 text-right">
+        <a class="my-3" href="mailto:your@email.com">your@email.com</a>
       </p>
 
     </div>

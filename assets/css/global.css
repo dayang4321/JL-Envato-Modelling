@@ -18,11 +18,11 @@ a{
     color : white;
 } 
 
-a:focus,
+/* a:focus,
 a:hover,
 a:active {
     color: #FBD46D!important;
-}
+} */
 
 
 .section-title{
@@ -31,3 +31,5 @@ a:active {
     font-size: 36px;
     line-height: 54px;
 }
+
+

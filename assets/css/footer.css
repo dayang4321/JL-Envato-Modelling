@@ -1,5 +1,5 @@
 footer {
-    background: #1D2122;
+    background: #07031A;
     color: white;
 }
 
@@ -19,6 +19,7 @@ footer {
     box-shadow: 0 1px 0 0 #fb3 !important; }
   
   .footer .md-form label {
+      font-size: 18px;
     color: #fff; }
     .footer .md-form label.active {
       color: #fb3 !important; }
@@ -42,4 +43,9 @@ footer {
       transform: translateY(-25px);
       transform-origin: 0 0;
         font-size: .8rem;
+    }
+
+
+    .footer p a{
+        font-size: 18px
     }
