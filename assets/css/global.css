@@ -1,0 +1,26 @@
+/* Smooth Scroll Behaviour */
+html{
+    scroll-behavior: smooth!important;
+}
+
+
+body {  
+  background-color: #E5E5E5!important;
+  font-family: 'Poppins', sans-serif!important;
+  color: white!important;
+  /* background-image: url(/assets/img/cover-bg.png)!important ;
+  background-repeat: no-repeat!important; */
+  position: relative;
+}
+
+/* Links-global */
+a{    
+    text-decoration: none!important;
+    color : #E8E7E7!important;
+} 
+
+a:focus,
+a:hover,
+a:active {
+    color: #FFD4FF!important;
+}
