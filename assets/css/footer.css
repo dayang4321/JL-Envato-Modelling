@@ -5,7 +5,6 @@ footer {
 
 .footer-title{
     font-size: 48px;
-    line-height: 72px;
 }
 
 
@@ -13,15 +12,16 @@ footer {
 .footer input[type=text], .footer input[type=password], .footer input[type=email] {
     border-bottom: 1px solid #fff; }
   
-  .footer .md-form input[type=text]:focus:not([readonly]), .footer .md-form input[type=password]:focus:not([readonly]), .footer .md-form input[type=email]:focus:not([readonly]) {
+.footer .md-form input[type=text]:focus:not([readonly]), .footer .md-form input[type=password]:focus:not([readonly]), .footer .md-form input[type=email]:focus:not([readonly]) {
     border-bottom: 1px solid #fb3 !important;
     -webkit-box-shadow: 0 1px 0 0 #fb3 !important;
     box-shadow: 0 1px 0 0 #fb3 !important; }
   
-  .footer .md-form label {
-      font-size: 18px;
+.footer .md-form label {
+      font-size: 20px;
     color: #fff; }
-    .footer .md-form label.active {
+
+.footer .md-form label.active {
       color: #fb3 !important; }
   
   /* Remove chrome autofil background color */
@@ -48,4 +48,18 @@ footer {
 
     .footer p a{
         font-size: 18px
+    }
+
+    .btn-dark{
+        background:#07031A!important;
+    }
+
+    @media (max-width:768px){
+        .footer-title{
+            font-size: 36px;
+        }
+        .footer .md-form label {
+            font-size: 18px;
+          color: #fff; }
+        
     }

@@ -29,7 +29,19 @@ a:active {
     font-family: Poppins;
     font-weight: 600;
     font-size: 36px;
-    line-height: 54px;
+}
+
+/* Image Overlay */
+.rgba-shade-strong, 
+.rgba-shade-strong:after{
+    background: rgba(7, 3, 26, 0.75);
 }
 
 
+
+@media (max-width: 576px) {
+    
+    .section-title{
+        font-size: 24px;
+    }
+ }
