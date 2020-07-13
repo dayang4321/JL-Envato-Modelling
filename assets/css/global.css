@@ -37,6 +37,9 @@ a:active {
     background: rgba(7, 3, 26, 0.75);
 }
 
+.loadable {
+    display: none;
+}
 
 @media (max-width: 576px) {
     
