@@ -32,6 +32,9 @@ background-color: none!important;
 border-bottom: 1px solid #fb3;
 }
 
+.top-nav-collapse {
+    background-color: #07031A; }
+
 .contact-button{
     font-weight: bold;
     font-size: 18px;
@@ -51,6 +54,8 @@ border-bottom: 1px solid #fb3;
     font-size: 18px;
 }
 
+
+/* Small Screens */
 @media (max-width: 576px) {
     .hero-text{
         font-size: 40px;
@@ -58,7 +63,7 @@ border-bottom: 1px solid #fb3;
    
  }
 
-
+/* Medium Screens */
 @media (max-width:768px){
     .navbar  {
         background-color: #07031A; }
@@ -68,18 +73,14 @@ border-bottom: 1px solid #fb3;
         background-color: none!important;
         border-bottom: none;
         border-left: 1px solid #fb3;
-}
-header{
-    height: 100%;
-}
-
-}
-
-.top-nav-collapse {
-    background-color: #07031A; }
-
-@media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #07031A!important;
     }
+
+    header{
+        
+    height: 100%; 
+
+    }
+
 }
+
+
