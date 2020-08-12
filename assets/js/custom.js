@@ -1,7 +1,8 @@
 
 //Loading Fuction
 
-window.onload = (event) => {
-    document.getElementById("loader").style.display = "none";
-    document.querySelector(".loadable").style.display = "block";
-}
+
+//dispose preloader
+$(window).on('load', function() {
+    $('#loading').delay(500).fadeOut(300);
+  });
